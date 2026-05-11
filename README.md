@@ -1,5 +1,91 @@
-ShopSphere - MERN Stack E-Commerce Platform
-# 🛒 ShopSphereShopSphere is a full-stack E-Commerce web application built using the MERN Stack (MongoDB, Express.js, React.js, Node.js). It provides users with a seamless online shopping experience with secure authentication, product management, cart functionality, order processing, and payment integration.---## 🚀 Features### 👤 User Features- User Registration & Login- JWT Authentication & Authorization- Browse Products- Search & Filter Products- Add to Cart- Update Cart Quantity- Wishlist Functionality- Checkout System- Online Payment Integration- Order History- Responsive Design### 🛠️ Admin Features- Admin Dashboard- Add/Edit/Delete Products- Manage Users- Manage Orders- Upload Product Images- Sales Overview & Analytics---## 🧰 Tech Stack### Frontend- React.js- Redux Toolkit / Context API- Tailwind CSS / CSS- Axios- React Router DOM### Backend- Node.js- Express.js- MongoDB- Mongoose### Authentication- JWT (JSON Web Token)- bcrypt.js### Payment Gateway- Razorpay / Stripe### Other Tools- Cloudinary (Image Upload)- Nodemailer- dotenv---## 📂 Folder Structure```bashShopSphere/│├── frontend/│   ├── public/│   ├── src/│   │   ├── components/│   │   ├── pages/│   │   ├── redux/│   │   ├── context/│   │   ├── services/│   │   ├── App.js│   │   └── main.js│├── backend/│   ├── controllers/│   ├── routes/│   ├── models/│   ├── middleware/│   ├── config/│   ├── utils/│   ├── server.js│├── .env├── package.json└── README.md
+# 🛒 ShopSphere
+
+ShopSphere is a full-stack E-Commerce web application built using the MERN Stack (MongoDB, Express.js, React.js, Node.js). It provides users with a seamless online shopping experience with secure authentication, product management, cart functionality, order processing, and payment integration.
+
+---
+
+## 🚀 Features
+
+### 👤 User Features
+- User Registration & Login
+- JWT Authentication & Authorization
+- Browse Products
+- Search & Filter Products
+- Add to Cart
+- Update Cart Quantity
+- Wishlist Functionality
+- Checkout System
+- Online Payment Integration
+- Order History
+- Responsive Design
+
+### 🛠️ Admin Features
+- Admin Dashboard
+- Add/Edit/Delete Products
+- Manage Users
+- Manage Orders
+- Upload Product Images
+- Sales Overview & Analytics
+
+---
+
+## 🧰 Tech Stack
+
+### Frontend
+- React.js
+- Redux Toolkit / Context API
+- Tailwind CSS / CSS
+- Axios
+- React Router DOM
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+
+### Authentication
+- JWT (JSON Web Token)
+- bcrypt.js
+
+### Payment Gateway
+- Razorpay / Stripe
+
+### Other Tools
+- Cloudinary (Image Upload)
+- Nodemailer
+- dotenv
+
+---
+
+## 📂 Folder Structure
+
+```bash
+ShopSphere/
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── redux/
+│   │   ├── context/
+│   │   ├── services/
+│   │   ├── App.js
+│   │   └── main.js
+│
+├── backend/
+│   ├── controllers/
+│   ├── routes/
+│   ├── models/
+│   ├── middleware/
+│   ├── config/
+│   ├── utils/
+│   ├── server.js
+│
+├── .env
+├── package.json
+└── README.md
 
 ⚙️ Installation & Setup
 1️⃣ Clone Repository
